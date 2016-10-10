@@ -6,6 +6,9 @@
   </head>
   <body ng-app="app">
     <div ng-controller="AppCtrl as app">
+    <button ng-click="app.refreshSystemStats()">GET!</button>
+
+    {{app.systemStats}}
     </div>
   </body>
 
